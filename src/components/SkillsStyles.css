@@ -1,0 +1,89 @@
+section {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .main-text {
+    text-align: center;
+  }
+  
+  .main-text h2 {
+    margin-top: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
+   
+    display: inline-block;
+
+  }
+  
+  
+  .main-text h4 {
+    color: rgb(230, 230, 8);
+    margin-bottom: 40px;
+  }
+  
+  .services-content {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    align-items: center;
+    text-align: center;
+    gap: 1rem; /* Reduced the gap between boxes */
+    margin-top: 5rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .box {
+    padding: 20px; /* Reduced the padding */
+    background: #12141c;
+    border-top: 5px solid transparent;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    height: 250px; /* Reduced the height */
+    margin-bottom: 50px;
+  }
+  
+  .box img {
+    max-width: 100%;
+    height: 150px;
+    margin-bottom: 10px; /* Reduced the margin */
+  }
+  
+  .box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .box h3 {
+    font-size: 20px; /* Reduced the font size */
+    font-weight: 600;
+    margin: 10px 0; /* Reduced the margin */
+    transition: all 0.4s ease;
+  }
+  
+  .box p {
+    color: white;
+    font-size: 16px; /* Reduced the font size */
+    line-height: 24px; /* Reduced the line height */
+    text-align: center;
+  }
+  
+  .box:hover {
+    transform: scale(1.01) translate(-5px);
+    border-top: 5px solid yellow;
+  }
+  .services {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: url("../assets/background.jpg");
+    background-size: cover; /* Adjust the background size to cover the entire section */
+    
+  }
+  
+  
